@@ -1,0 +1,46 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0a0a10;
+            overflow: hidden;
+            font-family: 'Courier New', monospace;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        #hud {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            color: rgba(160, 220, 255, 0.75);
+            font-size: 11px;
+            letter-spacing: 0.08em;
+            line-height: 2;
+            pointer-events: none;
+            text-transform: uppercase;
+        }
+
+        #hud .label {
+            color: rgba(80, 160, 255, 0.5);
+        }
+
+        #hud .val {
+            color: rgba(200, 240, 255, 0.9);
+        }
+
+        #corner-badge {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            color: rgba(80, 140, 255, 0.35);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            pointer-events: none;
+        }
